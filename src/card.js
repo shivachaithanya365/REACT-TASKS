@@ -1,17 +1,20 @@
 import React from 'react';
+import CustomProgressBar from './components/ProgressBar';
 
-const Card = ({ name, logo, trophies }) => {
+const Card = ({ name, logo, trophies, seasons }) => {
     const styles = {
         width: "23%",
-        height: "auto",
+        height: "280px",
         border: "2px solid black",
         borderRadius: "20px",
         boxShadow: "2px 2px 5px rgba(0, 0, 0, 1)",
         textAlign: "center",
         margin: "auto",
-        marginTop: "20px"
+        marginTop: "20px",
     };
     const imgStyles = { width: "50%", height: "auto" };
+
+    const percentage = (Number(trophies) / Number(seasons) * 100);
 
     return (
         <div style={styles}>
@@ -20,8 +23,9 @@ const Card = ({ name, logo, trophies }) => {
                 src={logo}
                 style={imgStyles}
             />
-            <h2>{name}</h2>
-            <p>NO. OF TROPHIES: {trophies}</p>
+            <h4>{name}</h4>
+            <p>NO. OF TROPHIES: {trophies}/{seasons}</p>
+            <CustomProgressBar scale={percentage} />
         </div>
     );
 };
