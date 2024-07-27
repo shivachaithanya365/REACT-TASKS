@@ -1,8 +1,8 @@
 import './App.css';
-import Card from './Card';
+import Card from './components/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
-import Footer from './Footer';
+import Footer from './components/Footer'
 
 const iplTeams = [
   {

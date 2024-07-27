@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomProgressBar from './components/ProgressBar';
+import CustomProgressBar from './ProgressBar'
 
 const Card = ({ name, logo, trophies, seasons }) => {
     const styles = {
