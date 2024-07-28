@@ -22,15 +22,15 @@ const linkStyle = {
 
 const footStyle = {
     position: 'sticky',
-    bottom: '0px',
-    left: '0px',
+    bottom: '30px',
+    right: '30px',
     zIndex: '1',
     display: 'block',
     width: '10%',
     borderRadius: '50%',
     margin: 'auto',
     boxShadow: "2px 2px 20px rgba(0, 0, 0, 10)",
-
+    marginRight: '30px'
 }
 
 const Footer = () => {

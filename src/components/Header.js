@@ -21,7 +21,7 @@ function Header() {
                 <Navbar.Brand href="#home" className="d-flex align-items-center">
                     <img
                         alt=""
-                        src="https://www.iplt20.com/assets/images/ipl-logo-new-old.png"
+                        src="https://jshleap.github.io/assets/images/recipes.jpg"
                         width="100"
                         height="50"
                         className="d-inline-block align-top"
@@ -34,14 +34,14 @@ function Header() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav style={navStyle}>
                         <Nav.Link href="#home" style={navLinkStyle}>Home</Nav.Link>
-                        <Nav.Link href="#link" style={navLinkStyle}>Matches</Nav.Link>
-                        <Nav.Link href="#link" style={navLinkStyle}>Points Table</Nav.Link>
-                        <NavDropdown title="Stats" id="basic-nav-dropdown" className='text-white'>
-                            <NavDropdown.Item href="#action/3.1" className='text-black'>Overall Stats</NavDropdown.Item>
+                        <Nav.Link href="#link" style={navLinkStyle}>Recipes</Nav.Link>
+                        <Nav.Link href="#link" style={navLinkStyle}>Varities</Nav.Link>
+                        <NavDropdown title="RecipesList" id="basic-nav-dropdown" className='text-white'>
+                            <NavDropdown.Item href="#action/3.1" className='text-black'>North-Indian</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2" className='text-black'>
-                                Head to Head
+                                South-Indian
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3" className='text-black'>Individual Stats</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3" className='text-black'>Foreign</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
