@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -35,4 +40,105 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar-nav .nav-link,
+.dropdown-menu .dropdown-item {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: black !important;
+}
+
+.button {
+  background-color: #373cbc;
+  border-radius: 20px;
+  border-style: none;
+  padding: 3px;
+  margin: 10px;
+  color: white;
+  height: auto;
+  width: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.button:hover {
+  background-color: #06084e;
+}
+
+.reset-button {
+  background-color: #373cbc;
+  border-radius: 20px;
+  border-style: none;
+  padding: 3px;
+  margin: 10px;
+  color: white;
+  height: auto;
+  width: 60px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.reset-button:hover {
+  background-color: #06084e;
+}
+
+.counter {
+  background-color: #373cbc;
+  border-radius: 20px;
+  border-style: none;
+  padding: 3px;
+  margin: 10px;
+  color: white;
+  height: auto;
+  width: 100px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.square-adder {
+  background-color: #4e52be;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.square-adder2 {
+  background-color: #cc4e5d;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.square-adder-button {
+  background-color: #0cb97a;
+  width: auto;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  border-style: dotted;
+}
+
+.square-adder-button:hover {
+  background-color: #02714a;
 }
