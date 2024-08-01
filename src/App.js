@@ -1,20 +1,21 @@
+import React, { Component } from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Footer from './components/Footer'
-import Recipes from './components/RecipesData'
+import FakestoreApi from './components/fakestoreapi';
 
-function App() {
-  return (
-    <>
-      <Header />
-      <h1 style={{ textAlign: 'center', marginTop: '100px', color: 'red' }}>---------------   RECIPES   ---------------</h1>
-      <div>
-        <Recipes />
-      </div>
-      <Footer />
-    </>
-  );
+class App extends Component {
+
+  render() {
+
+    return (
+      <>
+        <Header />
+        <FakestoreApi />
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default App;

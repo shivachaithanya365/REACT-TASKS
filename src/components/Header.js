@@ -14,6 +14,9 @@ function Header() {
     const navLinkStyle = {
         color: 'white',
     };
+    const linkTextblack = {
+        color: 'black',
+    }
 
     return (
         <Navbar expand="lg" className="bg-primary" fixed="top">
@@ -36,12 +39,12 @@ function Header() {
                         <Nav.Link href="#home" style={navLinkStyle}>Home</Nav.Link>
                         <Nav.Link href="#link" style={navLinkStyle}>Recipes</Nav.Link>
                         <Nav.Link href="#link" style={navLinkStyle}>Varities</Nav.Link>
-                        <NavDropdown title="RecipesList" id="basic-nav-dropdown" className='text-white'>
-                            <NavDropdown.Item href="#action/3.1" className='text-black'>North-Indian</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2" className='text-black'>
+                        <NavDropdown title="RecipesList" id="basic-nav-dropdown" style={navLinkStyle}>
+                            <NavDropdown.Item href="#action/3.1" style={linkTextblack} >North-Indian</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2" style={linkTextblack}>
                                 South-Indian
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3" className='text-black'>Foreign</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3" style={linkTextblack}>Foreign</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

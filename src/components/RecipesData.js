@@ -1243,8 +1243,15 @@ const recipesData = [
 ];
 
 const Recipes = () => {
+    const CardContainer = {
+        display: "flex",
+        flexWrap: 'wrap',
+        gap: '20px',
+        justifyContent: 'center',
+        padding: '20px',
+    }
     return (
-        <div className='card-container'>
+        <div style={CardContainer}>
             {recipesData.map(recipe => (
                 <RecipeCard key={recipe.id} recipe={recipe} />
             ))}
