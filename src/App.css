@@ -2,7 +2,7 @@
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
@@ -141,4 +141,15 @@
 
 .square-adder-button:hover {
   background-color: #02714a;
+}
+
+/* .card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; //Ensures the card contents are spaced evenly
+}*/
+
+.carousel {
+  width: 95%;
+  height: 100px;
 }

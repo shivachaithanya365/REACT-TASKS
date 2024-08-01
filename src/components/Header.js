@@ -22,8 +22,8 @@ class Header extends Component {
                     <Navbar.Brand href="#home" className="d-flex align-items-center">
                         <img
                             alt=""
-                            src="https://www.iplt20.com/assets/images/ipl-logo-new-old.png"
-                            width="100"
+                            src="https://fakestoreapi.com/icons/logo.png"
+                            width="50"
                             height="50"
                             className="d-inline-block align-top"
                         />{' '}
@@ -35,14 +35,14 @@ class Header extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav style={navStyle}>
                             <Nav.Link href="#home" style={navLinkStyle}>Home</Nav.Link>
-                            <Nav.Link href="#link" style={navLinkStyle}>Matches</Nav.Link>
-                            <Nav.Link href="#link" style={navLinkStyle}>Points Table</Nav.Link>
-                            <NavDropdown title="Stats" id="basic-nav-dropdown" className='text-white'>
-                                <NavDropdown.Item href="#action/3.1" className='text-black'>Overall Stats</NavDropdown.Item>
+                            <Nav.Link href="#link" style={navLinkStyle}>Products</Nav.Link>
+                            <Nav.Link href="#link" style={navLinkStyle}>Api</Nav.Link>
+                            <NavDropdown title="Category" id="basic-nav-dropdown" className='text-white'>
+                                <NavDropdown.Item href="#action/3.1" className='text-black'>Men</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2" className='text-black'>
-                                    Head to Head
+                                    Women
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3" className='text-black'>Individual Stats</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.3" className='text-black'>Kids</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
