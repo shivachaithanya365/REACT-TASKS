@@ -47,14 +47,6 @@
   color: white;
 }
 
-.text-black {
-  color: black;
-}
-
-.text-white {
-  color: black !important;
-}
-
 .button {
   background-color: #373cbc;
   border-radius: 20px;
@@ -148,8 +140,3 @@
   flex-direction: row;
   justify-content: center; //Ensures the card contents are spaced evenly
 }*/
-
-.carousel {
-  width: 95%;
-  height: 100px;
-}
