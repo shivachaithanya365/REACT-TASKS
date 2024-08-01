@@ -1251,11 +1251,15 @@ const Recipes = () => {
         padding: '20px',
     }
     return (
-        <div style={CardContainer}>
-            {recipesData.map(recipe => (
-                <RecipeCard key={recipe.id} recipe={recipe} />
-            ))}
-        </div>
+        <>
+            <h2 style={{ textAlign: 'center', marginTop: '100px' }}>------------------RECIPES LIST------------------</h2>
+            <div style={CardContainer}>
+                {recipesData.map(recipe => (
+                    <RecipeCard key={recipe.id} recipe={recipe} />
+                ))}
+            </div>
+        </>
+
     )
 };
 

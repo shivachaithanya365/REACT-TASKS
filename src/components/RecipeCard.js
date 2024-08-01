@@ -14,6 +14,7 @@ const RecipeCard = ({ recipe }) => {
         alignItems: 'center',
         flexDirection: 'column',
         paddingTop: '20px',
+        marginTop: '10px'
     }
     return (
         <div style={card}>
