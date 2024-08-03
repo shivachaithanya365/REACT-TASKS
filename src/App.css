@@ -2,8 +2,9 @@
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  /* align-items: center; */
   flex-direction: row;
 }
 
@@ -101,7 +102,7 @@
 }
 
 .square-adder {
-  background-color: #4e52be;
+  background-color: #565bf3;
   width: 100px;
   height: 100px;
   margin: 20px;
@@ -110,7 +111,7 @@
 }
 
 .square-adder2 {
-  background-color: #cc4e5d;
+  background-color: #e2001a;
   width: 100px;
   height: 100px;
   margin: auto;
@@ -119,7 +120,7 @@
 }
 
 .square-adder-button {
-  background-color: #0cb97a;
+  background-color: #008f5a;
   width: auto;
   height: 50px;
   margin: auto;
