@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
-import FakestoreApi from './components/Fakestoreapi';
 import Footer from './components/Footer'
-import SquareAdder from './components/Square-adder';
-import DemoCarousel from './components/Carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Countries from './components/Countries';
+import Recipies from './components/Recipies';
 
 class App extends Component {
 
@@ -14,10 +12,9 @@ class App extends Component {
     return (
       <>
         <Header />
-        <FakestoreApi />
-        <SquareAdder />
-        <DemoCarousel style={{ height: '300px' }} />
         <Footer />
+        <Countries />
+        <Recipies />
       </>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProgressBar from 'react-bootstrap/ProgressBar';
+// import ProgressBar from 'react-bootstrap/ProgressBar';
 export default class Card extends Component {
 
     static maxCount = 5;
@@ -32,8 +32,9 @@ export default class Card extends Component {
 
 
     render() {
-        const { title, image, price, description, category, rating, ratingCount } = this.props;
-        const percentage = (rating / Card.maxCount) * 100;
+        // const { title, image, price, description, category, rating, ratingCount } = this.props;
+        const { recipes, id, name, ingredients, instructions, image } = this.props;
+        // const percentage = (rating / Card.maxCount) * 100;
 
         const styles = {
             border: '2px solid black',
@@ -54,13 +55,14 @@ export default class Card extends Component {
 
         return (
             <div style={styles}>
-                <img alt={`${title} pic`} src={image} style={imgStyles} />
-                <p><b>Title : </b>{title}</p>
-                <p><b>Price : </b>{price}</p>
-                <p><b>Category : </b>{category}</p>
-                <p><b>Description : </b>{description}</p>
-                <p><b>Rating : </b> {rating} ({ratingCount} reviews)</p>
-                <ProgressBar animated now={percentage} style={{ width: '100%' }} />
+                <img alt={`${id} pic`} src={image} style={imgStyles} />
+                <p><b>recipe : </b>{recipes}</p>
+                <p><b>id : </b>{id}</p>
+                <p><b>name : </b>{name}</p>
+                <p><b>ingredients : </b>{ingredients}</p>
+                <p><b>instructions : </b>{instructions}</p>
+                {/* <p><b>Rating : </b> {rating} ({ratingCount} reviews)</p> */}
+                {/* <ProgressBar animated now={percentage} style={{ width: '100%' }} /> */}
             </div>
         );
     }

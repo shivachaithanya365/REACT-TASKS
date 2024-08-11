@@ -20,11 +20,10 @@ const linkStyle = {
 };
 
 const footStyle = {
-    position: 'sticky',
-    bottom: '0px',
-    marginLeft: 'auto',
-    marginRight: '20px',
-    zIndex: '1',
+    position: 'fixed',
+    bottom: '30px',
+    right: '10px',
+    zIndex: '10000',
     display: 'block',
     width: '10%',
     borderRadius: '50%',

@@ -4,7 +4,6 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  /* align-items: center; */
   flex-direction: row;
 }
 
@@ -135,9 +134,3 @@
 .square-adder-button:hover {
   background-color: #02714a;
 }
-
-/* .card-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; //Ensures the card contents are spaced evenly
-}*/

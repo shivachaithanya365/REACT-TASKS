@@ -22,7 +22,7 @@ class Header extends Component {
                     <Navbar.Brand href="#home" className="d-flex align-items-center">
                         <img
                             alt=""
-                            src="https://fakestoreapi.com/icons/logo.png"
+                            src="https://img.favpng.com/19/14/4/bootstrap-react-software-framework-javascript-front-and-back-ends-png-favpng-thPCzRyXPBz9xrGwVCeYjhN10.jpg"
                             width="50"
                             height="50"
                             className="d-inline-block align-top"
